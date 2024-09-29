@@ -6,20 +6,6 @@
     android:background="@drawable/img"
     android:orientation="vertical"
     android:padding="16dp">
-
-
-    <TextView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@color/transparent"
-        android:gravity="center"
-        android:text="सं"
-        android:textColor=""
-        android:textSize="30sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="52dp" />
-
     <TextView
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -31,6 +17,19 @@
         tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="128dp" />
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="स्कृ"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="43dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
