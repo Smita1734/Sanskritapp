@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    tools:context=".gridlayout">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        tools:ignore="UselessParent">
+
+        <!-- First Image -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <!-- Second Image -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <!-- Third Image -->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <!-- Fourth Image -->
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <!-- Fifth Image -->
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            tools:ignore="ContentDescription" />
+
+        <!-- Sixth Image -->
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            tools:ignore="ContentDescription,ImageContrastCheck"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    </GridLayout>
+</LinearLayout>
