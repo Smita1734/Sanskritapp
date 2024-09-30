@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="tranparent"></color>
+    <color name="colorPrimary">#4a148c</color>
+    <color name="colorPrimaryDark">#4a148c</color>
+    <color name="colorAcent">#03DAC5</color>
+    <color name="purple">#4a148c</color>
 </resources>

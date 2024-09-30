@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
     private Class<?> gridlayout;
 
+    public MainActivity(Class<?> gridlayout) {
+        this.gridlayout = gridlayout;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
